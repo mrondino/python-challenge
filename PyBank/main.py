@@ -61,7 +61,7 @@ print(f"Greatest Increase in Profits: {greatest_increase_month} (${greatest_incr
 print(f"Greatest Decrease in Profits: {greatest_decrease_month} (${greatest_decrease})")
 
 #print the outcome to a txt file
-file_path = 'output.txt'
+file_path = "PyBank\\analysis\\output.txt"
 
 with open(file_path, 'w') as file:
     file.write("Financial Analysis\n"
