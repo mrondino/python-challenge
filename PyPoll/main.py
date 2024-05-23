@@ -61,7 +61,7 @@ print(f"Winner: {Winner}")
 print("-----------------------------------")
 
 #print the outcome to a txt file
-file_path ="PyPoll\\analysis\\output.txt"
+file_path ="analysis\\output.txt"
 
 with open(file_path, 'w') as file:
     file.write("Election Results\n"
