@@ -1,7 +1,7 @@
 #Import specific CSV file
 import os
 import csv
-csvpath = os.path.join("PyPoll","Resources", "election_data.csv")
+csvpath = os.path.join("Resources", "election_data.csv")
 
 
 #Create empty string and variables
